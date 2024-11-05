@@ -1,0 +1,37 @@
+body  {
+    background-color: lightgray;
+}
+
+.flex-container {
+    border: 3px black solid;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; /* This will center the elements inside the flexbox */
+    width: 75%; /* Make the container 75% of its parent */
+    margin: 0 auto; /* Center the flex container horizontally */
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    
+}
+
+.flex-container > img {
+    height: 25em;
+    width: auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.flex-container > .btn-success {
+    margin: 1em;
+}
